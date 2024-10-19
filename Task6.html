@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tables and Forms</title>
+</head>
+<body>
+      <h1>This is Form input and organised data table</h1>
+      <form action="krrakshith12@gmil.com" method="post">
+            <label for="fname">Firstname:</label> <br>
+            <input type="text" id="fname"name="fname" required> <br>
+            <label for="email">Email:</label> <br>
+            <input type="email" id="Email"name="email"required> <br>
+            <label for="Phone number">Phone number:</label> <br>
+            <input type="number" id="phone number" name="phone number" required > <br>
+            <label for="Message">Message:</label> <br>
+
+            <textarea name="message" id="message" rows="5" cols="20" required></textarea><br>
+            <button type="submit">Submit</button>
+      </form> <br><br><br>
+
+   <table border="1"><tr><th>First name</th> <th>last name</th> <th>age</th></tr>
+      <tr><td>Rakshith</td> <td>K.R</td> <td>22</td></tr>
+      <tr><td>Ravi</td><td>M.R</td><td>21</td></tr>
+      <tr><td>Raksh</td> <td>K.R</td> <td>22</td></tr>
+      <tr><td>Rama</td><td>M.R</td><td>21</td></tr>
+      <tr><td colspan="3">merged column</td></tr>
+      <tr><td rowspan="2" >Remarks</td></tr>
+      <br><br>
+      
+      
+   </table>   <br>
+   <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th colspan="2">Location</th> <!-- This cell spans across two columns -->
+      </tr>
+      <tr>
+        <td>John</td>
+        <td rowspan="2">25</td> <!-- This cell spans across two rows -->
+        <td>New York</td>
+        <td>USA</td>
+      </tr>
+      <tr>
+        <td>Emma</td>
+        <td>London</td>
+        <td>UK</td>
+      </tr>
+    </table>
+      
+</body>
+</html>
