@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <h1>Add the picturce using picture tag</h1>
+      <picture>
+            <source media="(min-width: 768px)" srcset="email.jpeg">
+            <source media="(max-width: 767px)" srcset="google.jpeg">
+            <img src="image1.jpg" alt="image">
+      </picture>
+
+      <div class="flex-container">
+            <div class="flex-item"><a href="https://www.iitjobs.com/">iit jobs</a></div>
+            <div class="flex-item">item2</div>
+            <div class="flex-item">item3</div>
+            <div class="flex-item">item4</div>
+            <div class="flex-item">item5</div>
+            <div class="flex-item">item6</div>
+            <div class="flex-item">item7</div>
+            <div class="flex-item">item8</div>
+            <div class="flex-item">item9</div>
+            <div class="flex-item">item10</div>
+
+      </div>
+      <style>
+           
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; 
+  flex-direction: column;
+   
+}
+
+.flex-item {
+  flex: 1 1 45%;
+  margin: 10px;text-align:center;
+  
+}
+</style>
+</body>
+</html>
