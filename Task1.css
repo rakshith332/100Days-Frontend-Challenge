@@ -1,0 +1,50 @@
+#org {
+      color: green;
+      font-size: 35px;
+}
+.main{
+      color: aqua;
+      font-size: 35px;
+      border: 2px solid black;
+      border-radius: 10px;
+      border-style: calc();
+}
+
+h1{
+      color: blueviolet;
+      font-size: 24px;
+      border: 2px solid black;
+      border-radius: 10px;
+      border-style: dotted;
+}
+
+p{
+      color:coral;
+      font: italic;
+      font-size: 16px;
+      border: 2px solid black;
+      border-radius: 10px;
+      border-style: dashed;
+}
+
+
+.my{
+      color: goldenrod;
+      font-size: 35px;}
+
+div{
+      color: brown;
+      font-size: 18px;
+      border: 50px solid black;
+      border-radius: 10px;
+      border-style: double;
+}
+
+body{
+      background-color: aqua;
+      background-image: url(image1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      text-align: center;
+}
+
