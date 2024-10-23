@@ -1,0 +1,56 @@
+.fixed-header{
+      position: fixed;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      background-color: lightcoral;
+      padding: 10px;
+      text-align: center;
+      z-index: 1000;
+}
+.content{
+      margin-top: 50px;
+}
+.flex{
+      display: inline-flex;
+      background-color: brown;
+      color: black;
+      flex-direction: column;
+      justify-content: space-between;
+      line-height: 50px;
+      padding: 5px;
+}
+.block {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+      margin: 5px;
+      text-align: center;
+      line-height: 100px;
+    }
+.visible{
+      display:inline-block;
+      background-color: lightgreen;
+      padding:10px;
+}
+.hidden{
+      
+      display: none;
+      
+}
+.parent {
+      position: relative; 
+      width: 400px;
+      height: 250px;
+      background-color: lightgray;
+    }
+    
+.child {
+      position: absolute; 
+      top: 100px;
+      left: 100px;
+      background-color: lightcoral;
+      padding: 10px;
+    }
+    
