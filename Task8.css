@@ -1,0 +1,32 @@
+/* Base styles for larger screens (desktops and tablets) */
+body {
+      font-family: Arial, sans-serif;
+      background-color: lightgray;
+    }
+    
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row; /* Two-column layout */
+    }
+    
+    .box {
+      flex: 1;
+      padding: 20px;
+      margin: 10px;
+      background-color: white;
+      border: 1px solid #ccc;
+    }
+    
+    /* Media query for screens narrower than 768px (mobile) */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column; /* Single-column layout for smaller screens */
+      }
+    
+      body {
+        background-color: lightblue; /* Change background color on mobile */
+      }
+    }
+    
