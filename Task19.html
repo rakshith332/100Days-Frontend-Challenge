@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .container {
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      height: 100vh; /* Full viewport height */
+      background-color: lightblue;
+    }
+    @media (min-width:400px){
+      .container {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      height: 100vh; /* Full viewport height */
+      background-color: lightblue;
+    }
+    }
+    @media (min-width:500px){
+      .container {
+      display: flex;
+      justify-content: end;
+      align-items: start;
+      height: 100vh; /* Full viewport height */
+      background-color: lightblue;
+    }
+    }
+    @media (min-width:600px){
+      .container {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      height: 100vh; /* Full viewport height */
+      background-color: lightblue;
+    }
+    }
+    @media (min-width:700px){
+      .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Full viewport height */
+      background-color: lightblue;
+    }
+    }
+    @media (min-width:800px){
+      .container {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      height: 100vh; /* Full viewport height */
+      background-color: lightblue;
+    }
+    }
+    @media (min-width:900px){
+      .container {
+      display: flex;
+      justify-content: start;
+      align-items: end;
+      height: 100vh; /* Full viewport height */
+      background-color: lightblue;
+    }
+    }
+    @media (min-width:1000px){
+      .container {
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      height: 100vh; /* Full viewport height */
+      background-color: lightblue;
+    }
+    }
+    @media (min-width:1100px){
+      .container {
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      height: 100vh; /* Full viewport height */
+      background-color: lightblue;
+    }
+    }
+
+    .item {
+      background-color: teal;
+      color: white;
+      padding: 50px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="item">
+    Centered Box
+  </div>
+</div>
+
+</body>
+</html>
