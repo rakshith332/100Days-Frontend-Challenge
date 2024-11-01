@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Transitions and Animations</title>
+      <style>
+
+            @keyframes box {
+                  from{transform: translateX(0)}
+                  to{transform:translateX(100px);}
+                  
+            }
+            .box{
+                  background-color: aqua;
+                  border: 2px double blue;
+                  margin: 10px;
+                  height: 50%;
+                  width: 50%;
+                  animation:box 0.5s linear 1ms 30 reverse;
+            }
+      </style>
+</head>
+<body>
+      <div class="box"> This is the Transitions and Animations
+            <div>Transitions and Animations</div>
+            <h1>Transitions and Animations</h1>
+            <p>Transitions and Animations</p>
+            <span>Transitions and Animations</span>
+            <div>Transitions and Animations</div>
+      </div>
+</body>
+</html>
