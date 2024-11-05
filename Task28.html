@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button:hover {
+            background-color: grey;
+        }
+
+        input:focus {
+            background-color: red;
+        }
+
+        div {
+            margin-bottom: 10px;
+        }
+        
+        h1::before {
+            color: red;
+            font-weight: bold;
+            content: " "; /* Corrected content */
+        }
+        
+        h1::after {
+            color: red;
+            content: " "; /* Corrected content */
+        }
+        
+        h1::first-letter {
+            color: lightcoral;
+            font-size: xx-large;
+        }
+
+    </style>
+</head>
+<body>
+    <div><h1>Pseudo class</h1></div>
+    <div>
+        <label for="text">Name</label>
+        <input type="text" id="text">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+    </div>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</body>
+</html>
